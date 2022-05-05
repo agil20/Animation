@@ -1,0 +1,63 @@
+.body{
+  
+
+width: 100px;
+height: 100px;
+background-color: aqua;
+margin-top: -120px;
+margin-left: 50px;
+animation-name: example;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+position: relative;
+
+}
+.header{
+width: 1000px;
+height: 4px;
+margin-left: 100px;
+margin-top: 100px;
+background-color: black;
+
+}
+.header2{
+    width: 1000px;
+    height: 4px;
+    margin-left: 100px;
+    margin-top: 135px;
+    background-color: black;
+}
+
+
+
+@keyframes example {
+  0%{ margin-left: 100px;
+    transform: rotate(45deg);
+} 
+
+  25%{
+      margin-top: -105px;
+      margin-left: 200px;
+    transform: rotate(90deg);
+}
+
+  50%{  margin-top: -120px;
+      margin-left: 300px;
+    transform: rotate(135deg);
+     
+ }75%
+    {   margin-top: -105px;
+        margin-left: 400px;
+        transform: rotate(180deg);
+ }
+ 100%{
+    margin-top: -120px;
+    margin-left: 500px;
+    transform: rotate(225deg);
+
+ }
+}
+.container{
+
+    transform: rotate(35deg);
+}

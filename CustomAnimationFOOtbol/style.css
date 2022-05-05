@@ -1,0 +1,77 @@
+.benzema{
+    margin-left: 450px;
+    margin-top:100px;
+   position:absolute;
+   animation-name:player;
+   animation-duration: 9s;
+   animation-iteration-count: infinite;
+}
+@keyframes player{
+    0%{margin-left: 430px;
+        margin-top: 80px;}
+    
+     
+     25%{
+         margin-left: 490px;
+        margin-top: 80px
+    
+     }
+     50%{
+        margin-left: 490px;
+        margin-top: 120px
+    
+    }
+    75%{
+        margin-left: 530px;
+        margin-top: 120px
+    
+    }
+    
+    100%{
+        margin-left: 530px;
+        margin-top: 120px
+    }
+
+}
+
+.ball{
+
+margin-left: 450px;
+margin-top: -300px;
+animation-name: top;
+animation-duration: 9s;
+animation-iteration-count: infinite;
+
+
+
+}
+
+ @keyframes top{
+0%{margin-left: 450px;
+    margin-top: -300px;}
+
+ 
+ 25%{
+     margin-left: 500px;
+    margin-top: -300px
+
+ }
+ 50%{
+    margin-left: 500px;
+   margin-top: -250px
+
+}
+75%{
+
+    margin-left: 550px;
+    margin-top: -250px
+
+}
+
+100%{
+    margin-left: 730px;
+    margin-top: -190px
+}
+
+}
+

@@ -1,0 +1,114 @@
+.container{
+
+width: 1000px;
+height: 350px;
+}
+.body{
+height: 100px;
+margin-top: -250px;
+animation-name: Aqil;
+animation-duration: 5s;
+position: relative;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+
+}
+.human{
+
+margin-top: 150px;
+margin-left: -10px;
+
+}
+.had1{
+
+   margin-top: -245px; 
+animation-name: had;
+animation-duration: 1s;
+position: relative;
+animation-iteration-count: infinite;
+
+
+}
+.had2{
+    margin-top: -20px; 
+margin-left: 220px;
+animation-name: had;
+animation-duration: 1s;
+position: relative;
+animation-iteration-count: infinite;
+ 
+ }
+ .had3{
+    margin-top: -100px; 
+margin-left: 350px;
+animation-name: had;
+animation-duration: 1s;
+position: relative;
+animation-iteration-count: infinite;
+
+ 
+ }
+ @keyframes had
+ { 50%{
+
+;
+
+ }
+
+
+ }
+ @keyframes Aqil {
+  50%{  margin-left: 400px; transform: rotate(5deg);
+     
+ }}
+ .had4{
+    margin-top: -10px; 
+margin-left: 350px;
+animation-name: had;
+animation-duration: 1s;
+position: relative;
+animation-iteration-count: infinite;
+
+ 
+ }
+ .had5{
+    margin-top: -90px; 
+margin-left: 400px;
+animation-name: had;
+animation-duration: 1s;
+position: relative;
+animation-iteration-count: infinite;
+
+ 
+ }.had6{
+    margin-top: -160px; 
+margin-left: 450px;
+animation-name: had;
+animation-duration: 1s;
+position: relative;
+animation-iteration-count: infinite;
+
+ 
+ }
+ .had7{
+    margin-top: -160px; 
+margin-left: 590px;
+animation-name: had;
+animation-duration: 1s;
+position: relative;
+animation-iteration-count: infinite;
+
+ 
+ }
+
+ .pol{
+    margin-top: -19px;
+    margin-left: 500px;
+
+ }
+ .gif{
+    margin-top: -260px;
+    margin-left: -10px;
+ }
+
+ 
